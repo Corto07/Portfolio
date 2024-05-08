@@ -8,9 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'bebas': ['Bebas Neue', 'sans-serif'],
-        'pacifico': ["Pacifico", "cursive"],
-        'satisfy': ["Satisfy", "cursive"],
-        'madimi': ["Madimi One", "sans-serif"],
+        'acme': ["Acme", "sans-serif"],
         'akaya': ["Akaya Kanadaka", "system-ui"],
         'kalam': ["Kalam", "sans-serif"],
       },

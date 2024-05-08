@@ -2,10 +2,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
@@ -16,8 +13,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.fuccia-text-shadow {
-  text-shadow: fuchsia 3px 3px;
+.sky-text-shadow {
+  text-shadow: rgb(0, 71, 99) 2px 2px 2px;
 }
 
 .black-text-shadow {
@@ -26,17 +23,4 @@ body {
 
 .white-text-shadow {
   text-shadow: white 2px 2px;
-}
-
-.about-image{
-  text-align: center;
- img{
-   margin-top: 2rem;
-   width: 25%;
-   filter: grayscale(0);
-   transition: filter 0.5s;
-   &:hover{
-     filter: grayscale(0);
-   }
- }
 }
