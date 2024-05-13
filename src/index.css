@@ -24,3 +24,7 @@ body {
 .white-text-shadow {
   text-shadow: white 2px 2px;
 }
+
+.animate-spin.slow {
+  animation-duration: 3s; /* Duración de la animación: 3 segundos */
+}
