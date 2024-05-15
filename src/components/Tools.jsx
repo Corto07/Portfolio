@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Tools = () => {
   return (
-    <div id="tools" className="relative z-10 w-[100%] h-[600px] flex justify-center bg-opacity-80 bg-gray-900">
+    <div id="tools" className="relative z-10 w-[100%] h-[600px] flex justify-center bg-opacity-70 bg-black">
     
     <div className='z-10 w-[60%] text-white'>
       <Fade cascade direction="left">

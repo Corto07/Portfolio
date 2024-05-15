@@ -3,16 +3,97 @@ import { Fade } from "react-awesome-reveal";
 
 const Project = () => {
   return (
-    <div id="project" className="relative z-10 w-[100%] h-[600px] flex justify-center bg-opacity-80 bg-gray-900">
-    
-    <div className='z-10 w-[60%] text-white'>
-      <Fade cascade direction="left">
-        <h1 className='ml-[20%] mt-[20%]'>Proyectos</h1>
-      </Fade>
-    </div>
+    <div id="project" className="relative z-10 w-full md:w-[100%] h-auto md:h-auto flex justify-center bg-opacity-70 bg-black">
+      <div className="z-10 w-full md:w-[90%] lg:w-[90%] h-auto md:h-auto pb-4 pt-16 flex flex-wrap justify-center text-white ">
+        
+        {/* Tarjeta 1 */}
+        <Fade cascade direction="top" duration={1500}>
+          <div className="w-full md:w-[100%] lg:w-[100%] h-[400px] pt-12 px-4 animate__animated animate__fadeInUp" style={{ animationName: "slideIn", animationDuration: "1.5s", animationFillMode: "both" }}>
+            <div className="h-full bg-sky-500 bg-opacity-30 rounded-lg p-6">
+              <h1 className="text-lg text-center pb-4 font-kalam">Rick and Morty</h1>
+            <div className='items-center w-[300px] h-[250px] rounded-lg overflow-hidden'>  
+              <img className="items-center w-[300px] h-[250px] rounded-lg transition duration-700 hover:scale-110 cursor-pointer"
+              src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1715799655/Porfolio/Captura_de_pantalla_512_bojnws.png"
+              alt="Imagen Rick and Morty" />
+            </div>
+            </div>
+          </div>
+        </Fade>
 
- </div> 
-)
+        {/* Tarjeta 2 */}
+        <Fade cascade direction="top" duration={1500} delay={200}>
+          <div className="w-full md:w-[100%] lg:w-[100%] h-[400px] pt-12 px-4 animate__animated animate__fadeInUp" style={{ animationName: "slideIn", animationDuration: "1.5s", animationFillMode: "both", animationDelay: "0.2s" }}>
+            <div className="h-full bg-sky-500 bg-opacity-30 rounded-lg p-6">
+              <h1 className="text-lg text-center pb-4 font-kalam">Dogs</h1>
+              <div className='items-center w-[300px] h-[250px] rounded-lg overflow-hidden'>
+              <img className="items-center w-[300px] h-[250px] rounded-lg transition duration-700 hover:scale-110 cursor-pointer"
+              src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1715799655/Porfolio/Captura_de_pantalla_513_swyuix.png"
+              alt="Imagen Dogs" />
+            </div>
+            </div>
+          </div>
+        </Fade>
+
+        {/* Tarjeta 3 */}
+        <Fade cascade direction="top" duration={1500} delay={400}>
+          <div className="w-full md:w-[100%] lg:w-[100%] h-[400px] pt-12 px-4 animate__animated animate__fadeInUp" style={{ animationName: "slideIn", animationDuration: "1.5s", animationFillMode: "both", animationDelay: "0.4s" }}>
+            <div className="h-full bg-sky-500 bg-opacity-30 shadow-lg shadow-gray-800 rounded-lg p-6">
+              <h1 className="text-lg text-center pb-4 font-kalam">CodeCraft Templates</h1>
+              <div className='items-center w-[300px] h-[250px] rounded-lg overflow-hidden'>
+              <img className="items-center w-[300px] h-[250px] rounded-lg transition duration-700 hover:scale-110 cursor-pointer"
+              src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1715799654/Porfolio/Captura_de_pantalla_514_mrc6rd.png"
+              alt="Imagen CodeCraft" />
+            </div>
+            </div>
+          </div>
+        </Fade>
+
+        {/* Tarjeta 4 */}
+        <Fade cascade direction="top" duration={1500} delay={600}>
+          <div className="w-full md:w-[100%] lg:w-[100%] h-[400px] pt-12 px-4 animate__animated animate__fadeInUp" style={{ animationName: "slideIn", animationDuration: "1.5s", animationFillMode: "both", animationDelay: "0.4s" }}>
+          <div className="h-full bg-sky-500 bg-opacity-30 shadow-lg shadow-gray-800 rounded-lg p-6">
+              <h1 className="text-lg text-center pb-4 font-kalam">Health Style</h1>
+              <div className='items-center w-[300px] h-[250px] rounded-lg overflow-hidden'>
+              <img className="items-center w-[300px] h-[250px] rounded-lg transition duration-700 hover:scale-110 cursor-pointer"
+              src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1715807275/Porfolio/Captura_de_pantalla_515_qy7may.png"
+              alt="Imagen Health Style" />
+            </div>
+            </div>
+          </div>
+        </Fade>
+
+        {/* Tarjeta 5 */}
+        <Fade cascade direction="top" duration={1500} delay={800}>
+          <div className="w-full md:w-[100%] lg:w-[100%] h-[400px] pt-12 px-4 animate__animated animate__fadeInUp" style={{ animationName: "slideIn", animationDuration: "1.5s", animationFillMode: "both", animationDelay: "0.4s" }}>
+          <div className="h-full bg-sky-500 bg-opacity-30 shadow-lg shadow-gray-800 rounded-lg p-6">
+              <h1 className="text-lg text-center pb-4 font-kalam">Proyecto</h1>
+              <div className='items-center w-[300px] h-[250px] rounded-lg overflow-hidden'>
+              <img className="items-center w-[300px] h-[250px] rounded-lg transition duration-700 hover:scale-110 cursor-pointer"
+              src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1715807329/Porfolio/SitioEnConstruccion_tm8rtt.jpg"
+              alt="Imagen Proyecto" />
+            </div>
+            </div>
+          </div>
+        </Fade>
+
+        {/* Tarjeta 6 */}
+        <Fade cascade direction="top" duration={1500} delay={1000}>
+          <div className="w-full md:w-[100%] lg:w-[100%] h-[400px] pt-12 px-4 animate__animated animate__fadeInUp" style={{ animationName: "slideIn", animationDuration: "1.5s", animationFillMode: "both", animationDelay: "0.4s" }}>
+          <div className="h-full bg-sky-500 bg-opacity-30 shadow-lg shadow-gray-800 rounded-lg p-6">
+              <h1 className="text-lg text-center pb-4 font-kalam">Proyecto</h1>
+              <div className='items-center w-[300px] h-[250px] rounded-lg overflow-hidden'>
+              <img className="items-center w-[300px] h-[250px] rounded-lg transition duration-700 hover:scale-110 cursor-pointer"
+              src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1715807329/Porfolio/SitioEnConstruccion_tm8rtt.jpg"
+              alt="Imagen Proyecto" />
+            </div>
+            </div>
+          </div>
+        </Fade>
+
+
+      </div>
+    </div>
+  );
 };
 
 export default Project;
