@@ -5,7 +5,7 @@ const NavBar = ({ activeLink }) => {
     <div className='z-50 fixed flex items-center justify-center w-full h-[12%] bg-black bg-opacity-50 shadow-lg shadow-gray-800'>
       
       <div className='w-[10%]'>
-        <img className='w-14 ml-[85%] animate-spin slow' src='https://res.cloudinary.com/dhmkge0ia/image/upload/v1715189551/Porfolio/pngwing.com_5_auxpxq.png'>
+        <img className='w-14 ml-[85%] animate-spin slow' src='https://res.cloudinary.com/dhmkge0ia/image/upload/v1715964906/Porfolio/pngwing.com_27_je78sc.png'>
         </img>
       </div>
       <div className='w-[20%] text-center tracking-widest uppercase'>

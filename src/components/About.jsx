@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 const About = () => {
   return (
     
-    <div id="about" className="relative z-10 w-300 h-[640px] flex justify-center bg-opacity-70 bg-black"> 
+    <div id="about" className="relative z-10 w-300 h-[620px] flex justify-center bg-opacity-70 bg-black"> 
     
       <div className='z-10 w-[60%]'>
         <Fade cascade direction="left">
