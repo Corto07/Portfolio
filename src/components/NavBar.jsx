@@ -20,20 +20,21 @@ const NavBar = ({ activeLink }) => {
 
   return (
     <div className='z-50 fixed flex items-center justify-center bg-black bg-opacity-50 shadow-lg shadow-gray-800
-    xs:w-full xsm:w-full xsl:w-full sm:w-full md:w-full lg:w-full lg:w-full xs:h-[12%] xsm:h-[12%] xsl:h-[12%] sm:h-[14%] md:h-[14%] lg:h-[12%] '>
+    xs:w-full xsm:w-full xsl:w-full sm:w-full md:w-full lg:w-full xl:w-full 
+    xs:h-[12%] xsm:h-[12%] xsl:h-[12%] sm:h-[14%] md:h-[14%] lg:h-[12%] xl:h-[12%] '>
       
       {/* Logo Portfolio */}
-      <div className='xs:[20%] xsm:w-[20%] xsl:w-[20%] sm:w-[20%] md:w-[20%] lg:w-[10%]'>
+      <div className='xs:[20%] xsm:w-[20%] xsl:w-[20%] sm:w-[20%] md:w-[20%] lg:w-[10%] xl:w-[10%]'>
         <img className='animate-spin slow
-        xs:w-12 xsm:w-12 xsl:w-12 sm:w-12 md:w-12 lg:w-14 
-        xs:ml-[20%] xsm:ml-[40%] xsl:ml-[40%] sm:ml-[20%] md:ml-[30%] lg:ml-[85%] ' 
+        xs:w-12 xsm:w-12 xsl:w-12 sm:w-12 md:w-12 lg:w-14 xl:w-14
+        xs:ml-[20%] xsm:ml-[40%] xsl:ml-[40%] sm:ml-[20%] md:ml-[30%] lg:ml-[55%] xl:ml-[85%]' 
         src='https://res.cloudinary.com/dhmkge0ia/image/upload/v1715964906/Porfolio/pngwing.com_27_je78sc.png'
         alt='Logo'>
         </img>
       </div>
       
       {/* Datos Portfolio */}
-      <div className='xs:w-[60%] xsm:w-[60%] xsl:w-[60%] sm:w-[60%] md:w-[60%] lg:w-[20%] text-center tracking-widest uppercase'>
+      <div className='xs:w-[60%] xsm:w-[60%] xsl:w-[60%] sm:w-[60%] md:w-[60%] lg:w-[20%] xl:w-[20%] text-center tracking-widest uppercase'>
         <p className='font-sans font-semibold text-[16px] text-gray-500 italic'>
           Claudio {""}
           <span className='font-sans text-[16px] text-gray-300 '>

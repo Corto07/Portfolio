@@ -34,7 +34,7 @@ const Header = () => {
         xs:w-auto xsm:w-auto xsl:w-auto sm:w-auto md:w-auto lg:w-auto
         xs:h-[10%] xsm:h-[10%] xsl:h-[10%] sm:h-[10%] md:h-[10%] lg:h-[10%]
         xs:top-[20%] xsm:top-[20%] xsl:top-[20%] sm:top-[22%] md:top-[22%] lg:top-[24%]
-        xs:left-[60%] xsm:left-[50%] xsl:left-[45%] sm:left-[30%] md:left-[30%] lg:left-[20%]'
+        xs:left-[60%] xsm:left-[50%] xsl:left-[45%] sm:left-[30%] md:left-[30%] lg:left-[23%] xl:left-[20%]'
              src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1715105672/Porfolio/waving-hand_nbdiao.png"
              alt="Hola"/>
         
@@ -47,7 +47,7 @@ const Header = () => {
         <span className='absolute white-text-shadow font-sans text-sky-700 italic font-bold
         xs:text-5xl xsm:text-5xl xsl:text-5xl sm:text-5xl md:text-5xl lg:text-5xl
         xs:top-[39%] xsm:top-[39%] xsl:top-[39%] sm:top-[34.5%] md:top-[34.5%] lg:top-[36.5%]
-        xs:left-[8%] xsm:left-[8%] xsl:left-[8%] sm:left-[29.6%] md:left-[46%] lg:left-[29.6%]'
+        xs:left-[8%] xsm:left-[8%] xsl:left-[8%] sm:left-[29.6%] md:left-[46%] lg:left-[36.5%] xl:left-[29.6%]'
         >Claudio</span>
 
         <p className='absolute font-kalam black-text-shadow text-sky-600 
@@ -86,7 +86,7 @@ const Header = () => {
           
         <Fade cascade direction="right">
           <img
-            className="ml-[56%] mt-[10%] w-[35%] h-auto object-cover hidden lg:block"
+            className="lg:ml-[62%] xl:ml-[54%] lg:mt-[17.5%] xl:mt-[10%] w-[35%] h-auto object-cover hidden lg:block "
             src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1715173636/Porfolio/pngwing.com_25_dyynxx.png"
             alt="Imagen superpuesta"
           />
