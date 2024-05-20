@@ -24,16 +24,37 @@ const Header = () => {
     <div id="home" className="relative z-10 w-[100%] overflow-hidden flex justify-center bg-opacity-70 bg-black"> 
       
       <div className='relative w-[90%] h-[620px] '>
-        <p className='absolute sky-text-shadow font-sans font-semibold text-white text-[250%] top-[27%] left-[8%]'>Hola...!</p>
+        <p className='absolute sky-text-shadow font-sans font-semibold text-white 
+        xs:text-[250%] xsm:text-[250%] xsl:text-[250%] sm:text-[250%] md:text-[250%] lg:text-[250%]
+        xs:top-[22%] xsm:top-[22%] xsl:top-[22%] sm:top-[27%] md:top-[27%] lg:top-[27%]
+        xs:left-[8%] xsm:left-[8%] xsl:left-[8%] sm:left-[8%] md:left-[8%] lg:left-[8%]'
+        >Hola...!</p>
         
-        <img className='absolute w-auto h-[10%] top-[24%] left-[20%]'
+        <img className='absolute 
+        xs:w-auto xsm:w-auto xsl:w-auto sm:w-auto md:w-auto lg:w-auto
+        xs:h-[10%] xsm:h-[10%] xsl:h-[10%] sm:h-[10%] md:h-[10%] lg:h-[10%]
+        xs:top-[20%] xsm:top-[20%] xsl:top-[20%] sm:top-[24%] md:top-[24%] lg:top-[24%]
+        xs:left-[60%] xsm:left-[50%] xsl:left-[45%] sm:left-[30%] md:left-[30%] lg:left-[20%]'
              src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1715105672/Porfolio/waving-hand_nbdiao.png"
              alt="Hola"/>
         
-        <span className='absolute sky-text-shadow font-sans font-semibold text-white text-[250%] top-[36%] left-[8%]'>Mi nombre es </span>
-        <span className='absolute white-text-shadow font-sans text-sky-700 text-5xl top-[36.5%] left-[29.6%] italic font-bold'>Claudio</span>
+        <span className='absolute sky-text-shadow font-sans font-semibold text-white 
+        xs:text-[250%] xsm:text-[250%] xsl:text-[250%] sm:text-[250%] md:text-[250%] lg:text-[250%]
+        xs:top-[30%] xsm:top-[30%] xsl:top-[30%] sm:top-[36%] md:top-[36%] lg:top-[36%]
+        xs:left-[8%] xsm:left-[8%] xsl:left-[8%] sm:left-[8%] md:left-[8%] lg:left-[8%]'
+        >Mi nombre es </span>
+        
+        <span className='absolute white-text-shadow font-sans text-sky-700 italic font-bold
+        xs:text-5xl xsm:text-5xl xsl:text-5xl sm:text-5xl md:text-5xl lg:text-5xl
+        xs:top-[39%] xsm:top-[39%] xsl:top-[39%] sm:top-[36.5%] md:top-[36.5%] lg:top-[36.5%]
+        xs:left-[8%] xsm:left-[8%] xsl:left-[8%] sm:left-[29.6%] md:left-[46%] lg:left-[29.6%]'
+        >Claudio</span>
 
-        <p className='absolute font-kalam black-text-shadow text-sky-600 text-[26px] top-[51%] left-[8%]'>Soy Desarrollador Web Fullstack</p>
+        <p className='absolute font-kalam black-text-shadow text-sky-600 
+        text-[26px] 
+        top-[51%] 
+        left-[8%]'
+        >Soy Desarrollador Web Fullstack</p>
 
         <TypeAnimation
           sequence={[
@@ -63,7 +84,7 @@ const Header = () => {
           
         <Fade cascade direction="right">
           <img
-            className="ml-[56%] mt-[10%] w-[35%] h-auto object-cover"
+            className="ml-[56%] mt-[10%] w-[35%] h-auto object-cover hidden lg:block"
             src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1715173636/Porfolio/pngwing.com_25_dyynxx.png"
             alt="Imagen superpuesta"
           />

@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaTwitter, FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -43,6 +42,13 @@ const Footer = () => {
           />
         </a>
 
+        <a href="https://www.facebook.com/claudiocarruz" target="_blank" rel="noreferrer">
+          <img className="lg:h-16 lg:w-16 xs:h-12 xs:w-12 md:h-14 md:w-14 p-1.5 transition hover:scale-110 duration-500"
+          src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1715981612/Porfolio/pngwing.com_32_gpsr47.png"
+          alt="Facebook"
+          />
+        </a>
+
       
       </div>
    
@@ -70,7 +76,7 @@ const Footer = () => {
         <span className="ml-3 text-gray-500">|</span>
           <a className="ml-3 text-[#3E9278] hover:text-white" href="#about">Mi perfil</a>
         <span className="ml-3 text-gray-500">|</span>
-          <a className="ml-3 text-[#3E9278] hover:text-white" href="#projectk">Proyectos</a>
+          <a className="ml-3 text-[#3E9278] hover:text-white" href="#project">Proyectos</a>
         <span className="ml-3 text-gray-500">|</span>
           <a className="ml-3 text-[#3E9278] hover:text-white" href="#tools">Herramientas</a>
         <span className="ml-3 text-gray-500">|</span>

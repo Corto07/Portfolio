@@ -53,20 +53,13 @@ const Home = () => {
       <Tools />
       <Contact />
       <Footer />
+      
       <div className="fixed top-0 left-0 w-full h-full z-0">
         <img
         className="w-full h-full object-cover"
         src='https://res.cloudinary.com/dhmkge0ia/image/upload/v1715171784/Porfolio/14540_nkv2sb.jpg'
         ></img>
         
-        {/* <video
-          className="w-full h-full object-cover"
-          autoPlay
-          loop
-          muted
-          playsInline
-          src="https://res.cloudinary.com/dhmkge0ia/video/upload/v1715106219/Porfolio/1118553_4k_Form_Graphic_1280x720_wxpmye.mp4"
-        /> */}
       </div>
     </div>
   );
