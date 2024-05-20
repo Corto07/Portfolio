@@ -20,7 +20,7 @@ const NavBar = ({ activeLink }) => {
 
   return (
     <div className='z-50 fixed flex items-center justify-center bg-black bg-opacity-50 shadow-lg shadow-gray-800
-    xs:w-full xsm:w-full xsl:w-full sm:w-full md:w-full lg:w-full lg:w-full xs:h-[12%] xsm:h-[12%] xsl:h-[12%] sm:h-[12%] md:h-[12%] lg:h-[12%] '>
+    xs:w-full xsm:w-full xsl:w-full sm:w-full md:w-full lg:w-full lg:w-full xs:h-[12%] xsm:h-[12%] xsl:h-[12%] sm:h-[14%] md:h-[14%] lg:h-[12%] '>
       
       {/* Logo Portfolio */}
       <div className='xs:[20%] xsm:w-[20%] xsl:w-[20%] sm:w-[20%] md:w-[20%] lg:w-[10%]'>
