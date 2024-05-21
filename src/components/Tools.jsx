@@ -5,7 +5,7 @@ const Tools = () => {
   return (
     <div id="tools" className="relative z-10 w-[100%] h-auto flex justify-center bg-opacity-70 bg-black">
     
-    <div className='z-10 w-[100%] text-white'>
+    <div className='z-10 w-[100%] text-white mb-8'>
       <Fade cascade direction="left">
         <h1 className='ml-[30%] mt-[10%]'>Herramientas</h1>
         <img className="ml-[13%] items-center w-[72%]"

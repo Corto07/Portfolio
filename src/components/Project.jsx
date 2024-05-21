@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 const Project = () => {
   return (
     <div id="project" className="relative z-10 w-full md:w-[100%] h-auto md:h-auto flex justify-center bg-opacity-70 bg-black">
-      <div className="z-10 w-full md:w-[90%] lg:w-[90%] h-auto md:h-auto pb-4 pt-16 flex flex-wrap justify-center text-white ">
+      <div className="z-10 w-full md:w-[90%] lg:w-[90%] h-auto md:h-auto mb-6 pt-16 flex flex-wrap justify-center text-white ">
         
         {/* Tarjeta 1 */}
         <Fade cascade direction="top" duration={1500}>
