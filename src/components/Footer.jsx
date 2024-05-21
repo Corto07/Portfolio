@@ -30,7 +30,7 @@ const Footer = () => {
         <span className="ml-3 text-gray-500">|</span>
           <a className="ml-3 text-[#3E9278] hover:text-white" href="#project">Proyectos</a>
         <span className="ml-3 text-gray-500">|</span>
-          <a className="ml-3 text-[#3E9278] hover:text-white" href="#tools">Herramientas</a>
+          <a className="ml-3 text-[#3E9278] hover:text-white" href="#tools">Certificados</a>
         <span className="ml-3 text-gray-500">|</span>
           <a className="ml-3 text-[#3E9278] hover:text-white" href="#contact">Contacto</a>
         <span className="ml-3 text-gray-500 pb-2">|</span>

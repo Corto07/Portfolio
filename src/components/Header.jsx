@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <div id="home" className="relative z-10 w-[100%] overflow-hidden flex justify-center bg-opacity-70 bg-black"> 
       
-      <div className='relative w-[90%] h-auto mb-5'>
+      <div className='relative w-[90%] h-[600px] '>
         <p className='absolute sky-text-shadow font-sans font-semibold text-white 
         xs:text-[250%] xsm:text-[250%] xsl:text-[250%] sm:text-[250%] md:text-[250%] lg:text-[250%]
         xs:top-[22%] xsm:top-[22%] xsl:top-[22%] sm:top-[25%] md:top-[25%] lg:top-[27%]

@@ -287,7 +287,7 @@ const Contact = () => {
           <button
             type="submit"
             onSubmit={handleSubmit}
-            className={`mb-4 mt-8 block w-full text-white font-semibold py-3 px-4 rounded-full ${Object.values(errors).some(error => error !== "") || !inputLleno ? "bg-gray-600 cursor-not-allowed" : "bg-[#216651] hover:bg-[#3E9278] hover:text-black"}`}
+            className={`mb-4 mt-8 block w-full text-white font-semibold py-3 px-4 rounded-full ${Object.values(errors).some(error => error !== "") || !inputLleno ? "bg-gray-600 cursor-not-allowed" : "bg-[#216651] hover:bg-sky-500 hover:text-black"}`}
             disabled={Object.values(errors).some(error => error !== "") || !inputLleno}
             title={Object.values(errors).some(error => error !== "") ? Object.values(errors).join(", ") : !inputLleno ? "Por favor, completa todos los campos correctamente" : ""}
             style={{

@@ -70,7 +70,7 @@ const NavBar = ({ activeLink }) => {
           className={`text-white m-6 ${activeLink === 'tools' ? 'border-b border-sky-500 pointer-events-none' : 'relative hover:text-sky-500 transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-sky-500 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-sky-500 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]'}`}
           href="#tools"
         >
-          Herramientas
+          Certificados
         </a>
         <a
           className={`text-white m-6 ${activeLink === 'contact' ? 'border-b border-sky-500 pointer-events-none' : 'relative hover:text-sky-500 transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-sky-500 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-sky-500 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]'}`}
@@ -98,8 +98,9 @@ const NavBar = ({ activeLink }) => {
                 <h1 className="text-2xl font-semibold">Sidebar</h1>
                 <ul className="mt-4">
                     <li className="mb-2"><a href="#" className="block hover:text-indigo-400">Home</a></li>
-                    <li className="mb-2"><a href="#" className="block hover:text-indigo-400">About</a></li>
-                    <li className="mb-2"><a href="#" className="block hover:text-indigo-400">Services</a></li>
+                    <li className="mb-2"><a href="#" className="block hover:text-indigo-400">Mi perfil</a></li>
+                    <li className="mb-2"><a href="#" className="block hover:text-indigo-400">Proyectos</a></li>
+                    <li className="mb-2"><a href="#" className="block hover:text-indigo-400">Certificados</a></li>
                     <li className="mb-2"><a href="#" className="block hover:text-indigo-400">Contact</a></li>
                 </ul>
             </div>
