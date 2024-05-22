@@ -46,10 +46,10 @@ export function validation (input) {
   }
 
   // Validate subject
-  errors.asunto = "";
-  if (input.country.trim() !== "") {
-    if (input.lastname.length > 50) {
-      errors.asunto = "El asunto no debe exceder los 50 caracteres";
+  errors.subject = "";
+  if (input.subject.trim() !== "") {
+    if (input.subject.length > 50) {
+      errors.subject = "El asunto no debe exceder los 50 caracteres";
     }
   }
 

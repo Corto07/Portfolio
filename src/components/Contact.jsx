@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import emailjs from 'emailjs-com';
 import Swal from "sweetalert2";
-import { validation } from "./validation.js";
+import { validation } from "./validation";
 import { Fade } from "react-awesome-reveal";
 
 const Contact = () => {
@@ -31,7 +31,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-      emailjs.sendForm("service_7p64wk7", "template_ml6tpib", e.target, "l7M96__4X3gcfBedn")
+      emailjs.sendForm("service_36tn2lg", "template_egfgh04", e.target, "xfebKPwtN_1UuH0yO")
         .then((result) => {
           console.log(result.text);
           showSuccessAlert("Mensaje enviado correctamente...!");
@@ -80,8 +80,8 @@ const Contact = () => {
     h-auto pt-1 pb-1"> 
     
     <div className='z-10 md:w-[90%] lg:w-[80%] xl:w-[50%]'>
-        <Fade cascade direction="left">
-          <div className='z-10 text-white rounded-3xl bg-opacity-40 bg-black shadow-lg shadow-gray-800
+      <Fade cascade direction="left">
+        <div className='z-10 text-white rounded-3xl bg-opacity-40 bg-black shadow-lg shadow-gray-800
           xs:w-[90%] xsm:w-[90%] xsl:w-[90%] sm:w-[90%] md:w-[90%] lg:w-[80%] xl:w-[100%] 
           h-[90%] 
           xs:ml-[5%] xsm:ml-[5%] xsl:ml-[5%] sm:ml-[5%] md:ml-[5%] lg:ml-[10%] xl:ml-[12%]
@@ -138,15 +138,13 @@ const Contact = () => {
           alt="Facebook"
           />
         </a>
-
-      
+    
+        </div>
       </div>
-          </div>
-        
-        </Fade>  
-      </div>
+      </Fade>  
+    </div>
 
-      <div className='z-10 md:w-[90%] lg:w-[80%] xl:w-[85%]'>
+      <form onSubmit={handleSubmit} className='z-10 md:w-[90%] lg:w-[80%] xl:w-[85%]'>
         <Fade cascade direction="right">
           <div className='z-10 text-white rounded-3xl bg-opacity-40 bg-black shadow-lg shadow-gray-800
           xs:w-[90%] xsm:w-[90%] xsl:w-[90%] sm:w-[90%] md:w-[90%] lg:w-[80%] xl:w-[82%] 
@@ -171,10 +169,10 @@ const Contact = () => {
               required
               autoComplete="nope"
               className={`flex mt-1 p-2 border border-white rounded-2xl text-white italic  bg-transparent placeholder-gray-500 w-[95%] focus:outline-none 
-              xs:text-xs xsm:text-base xsl:text-base sm:text-base md:text-base lg:text-base xl:text-base  ${errors.name ? 'border-red-700' : 'border-[#216651]'}`}             
+              xs:text-xs xsm:text-base xsl:text-base sm:text-base md:text-base lg:text-base xl:text-base  ${errors.name ? 'border border-red-500' : 'border border-white'}`}             
  
             />
-              {errors.name && <span className="text-red-800">{errors.name}</span>}
+              {errors.name && <span className="text-red-500">{errors.name}</span>}
           </div>  
               
           <div className="w-[50%] mx-auto">
@@ -191,13 +189,12 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Apellido"
               required
-
               autoComplete="nope"
               className={`mt-1 p-2 border border-white rounded-2xl text-white italic bg-transparent placeholder-gray-500 w-full focus:outline-none
-              xs:text-xs xsm:text-base xsl:text-base sm:text-base md:text-base lg:text-base xl:text-base ${errors.lastname ? 'border-red-700' : 'border-[#216651]'}`}             
+              xs:text-xs xsm:text-base xsl:text-base sm:text-base md:text-base lg:text-base xl:text-base ${errors.lastname ? 'border border-red-500' : 'border border-white'}`}             
 
             />
-              {errors.lastname && <span className="text-red-800">{errors.lastname}</span>}
+              {errors.lastname && <span className="text-red-500">{errors.lastname}</span>}
           </div>  
         </div>
 
@@ -214,13 +211,12 @@ const Contact = () => {
             onChange={handleChange}
             placeholder="Ingrese su email - Ej.: email@mail.com"
             required
-
             autoComplete="nope"
             className={`mt-1 p-2 border border-white rounded-2xl text-white italic bg-transparent placeholder-gray-500 w-full focus:outline-none
-            xs:text-xs xsm:text-base xsl:text-base sm:text-base md:text-base lg:text-base xl:text-base ${errors.email ? 'border-red-700' : 'border-[#216651]'}`}             
+            xs:text-xs xsm:text-base xsl:text-base sm:text-base md:text-base lg:text-base xl:text-base ${errors.email ? 'border border-red-500' : 'border border-white'}`}             
 
             />
-            {errors.email && <span className="text-red-800">{errors.email}</span>}
+            {errors.email && <span className="text-red-500">{errors.email}</span>}
         </div>
         
         <div className="w-[90%] mx-auto mt-2">
@@ -238,9 +234,9 @@ const Contact = () => {
             required
             autoComplete="nope"
             className={`mt-1 p-2 border border-white rounded-2xl text-white italic bg-transparent placeholder-gray-500 w-full focus:outline-none 
-            xs:text-xs xsm:text-base xsl:text-base sm:text-base md:text-base lg:text-base xl:text-base ${errors.phone ? 'border-red-700' : 'border-[#216651]'}`}
+            xs:text-xs xsm:text-base xsl:text-base sm:text-base md:text-base lg:text-base xl:text-base ${errors.phone ? 'border border-red-500' : 'border border-white'}`}
             />
-            {errors.phone && <span className="text-red-800">{errors.phone}</span>}
+            {errors.phone && <span className="text-red-500">{errors.phone}</span>}
         </div>
 
         <div className="w-[90%] mx-auto mt-2">
@@ -258,9 +254,9 @@ const Contact = () => {
             required
             autoComplete="nope"
             className={`mt-1 p-2 border border-white rounded-2xl text-white italic bg-transparent placeholder-gray-500 w-full focus:outline-none 
-            xs:text-xs xsm:text-base xsl:text-base sm:text-base md:text-base lg:text-base xl:text-base ${errors.country ? 'border-red-700' : 'border-[#216651]'}`}
+            xs:text-xs xsm:text-base xsl:text-base sm:text-base md:text-base lg:text-base xl:text-base ${errors.subject ? 'border border-red-500' : 'border border-white'}`}
             />
-            {errors.subject && <span className="text-red-800">{errors.subject}</span>}
+            {errors.subject && <span className="text-red-500">{errors.subject}</span>}
         </div>
 
         <div className="w-[90%] mx-auto mt-2">
@@ -278,15 +274,15 @@ const Contact = () => {
             required
             autoComplete="nope"
             className={`mt-1 p-2 border border-white rounded-2xl text-white italic bg-transparent placeholder-gray-500 w-full focus:outline-none 
-            xs:text-xs xsm:text-base xsl:text-base sm:text-base md:text-base lg:text-base xl:text-base ${errors.message ? 'border-red-700' : 'border-[#216651]'}`}
+            xs:text-xs xsm:text-base xsl:text-base sm:text-base md:text-base lg:text-base xl:text-base ${errors.message ? 'border border-red-500' : 'border border-white'}`}
           ></textarea>
-            {errors.message && <span className="text-red-800">{errors.message}</span>}
+            {errors.message && <span className="text-red-500">{errors.message}</span>}
         </div>
        
         <div className="w-[90%] mx-auto pb-3">
           <button
             type="submit"
-            onSubmit={handleSubmit}
+            // onSubmit={handleSubmit}
             className={`mb-4 mt-8 block w-full text-white font-semibold py-3 px-4 rounded-full ${Object.values(errors).some(error => error !== "") || !inputLleno ? "bg-gray-600 cursor-not-allowed" : "bg-[#216651] hover:bg-sky-500 hover:text-black"}`}
             disabled={Object.values(errors).some(error => error !== "") || !inputLleno}
             title={Object.values(errors).some(error => error !== "") ? Object.values(errors).join(", ") : !inputLleno ? "Por favor, completa todos los campos correctamente" : ""}
@@ -299,17 +295,11 @@ const Contact = () => {
 
           </div>
         </Fade>  
-      </div>
-
-
-
-     
-    
+      </form>
 
   </div>
   
-  );
-    
+  );   
 }
 
 export default Contact;
