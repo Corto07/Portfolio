@@ -5,8 +5,8 @@ const About = () => {
   return (
     
     <div id="about" className="relative z-10 flex justify-center bg-opacity-70 bg-black 
-    xs:w-full xsm:w-full xsl:w-full sm:w-full md:w-full lg:w-full xl:w-full 
-    h-auto "> 
+         xs:w-full xsm:w-full xsl:w-full sm:w-full md:w-full lg:w-full xl:w-full 
+         h-auto"> 
     
       <div className='z-10 md:w-[90%] lg:w-[80%] xl:w-[60%]'>
         <Fade cascade direction="left">
@@ -15,7 +15,7 @@ const About = () => {
           h-[90%] 
           xs:ml-[5%] xsm:ml-[5%] xsl:ml-[5%] sm:ml-[5%] md:ml-[5%] lg:ml-[15%] xl:ml-[15%]
           mt-[14%]
-          mb-[5%] '>
+          mb-[5%]'>
             <h1 className='pt-[4%] ml-[4%] text-3xl font-kalam font-semibold'>Algo sobre mi...</h1>
               <p className='mt-8 ml-[4%] mr-[4%] text-md font-normal leading-relaxed text-justify'>Me llamo Claudio Carruz soy un desarrollador web Fullstack de Argentina, con gran afición al mundo tecnológico, orientado al diseño frontend y al material visual.</p>
               <p className='mt-8 ml-[4%] mr-[4%] text-md font-normal leading-relaxed text-justify'>A lo largo de mi capacitación teórico-práctica en el mundo del desarrollo web, me involucre en el desarrollo de varios proyectos, tanto individuales como grupales. Sumando resolución de problemas a cada proyecto, adaptabilidad y proactividad a los mismos.</p>
@@ -35,7 +35,6 @@ const About = () => {
         </Fade>
       </div>
 
-    
     </div>
   )
 };

@@ -4,7 +4,20 @@ import { Fade } from "react-awesome-reveal";
 const Tools = () => {
   return (
     <div id="tools" className="relative z-10 w-full md:w-[100%] h-auto md:h-auto flex justify-center bg-opacity-70 bg-black">
-      <div className="z-10 w-full md:w-[90%] lg:w-[90%] h-auto md:h-auto mb-6 pt-16 flex flex-wrap justify-center text-white ">
+      
+      <div className='absolute w-full h-[9.2%] mt-[8%] '
+        style={   
+          { 
+            background:
+            "linear-gradient(to right, transparent, transparent, black, transparent, transparent)",
+            }
+          }   >
+          <Fade cascade direction="left">
+            <h1 className='text-center text-white sky-text-shadow text-4xl font-sans font-bold italic mt-2 uppercase'>Certificados</h1>
+          </Fade>  
+        </div>
+      
+      <div className="z-10 w-full md:w-[90%] lg:w-[90%] h-auto md:h-auto mb-6 pt-[12%] flex flex-wrap justify-center text-white ">
             
         {/* Tarjeta 1 */}
         <Fade cascade direction="top" duration={1500}>
