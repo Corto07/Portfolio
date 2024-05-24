@@ -92,8 +92,8 @@ const Contact = () => {
             src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1715105007/Porfolio/pngwing.com_26_rt0ouc.png"
             alt="Imagen About Me"
               />
-              <p className='ml-[4%] mr-[4%] text-md font-normal leading-relaxed text-justify'>Estoy disponible en casi todas las redes sociales. Puede enviarme un mensaje, le responderé dentro de las 24 horas. Siempre puedes contactarme por los siguientes medios.</p>
-              <p className='mt-8 ml-[4%] mr-[4%] font-kalam pb-3 text-md font-normal leading-relaxed text-center'>CONTÁCTAME AQUÍ {""} 👇</p>
+              <p className='ml-[4%] mr-[4%] text-md font-normal leading-relaxed text-justify'>Estoy disponible en casi todas las redes sociales. Podes enviarme un mensaje, lo responderé dentro de las 24 horas. Siempre podes contactarme por los siguientes medios.</p>
+              <p className='mt-8 ml-[4%] mr-[4%] font-kalam pb-3 text-md font-normal leading-relaxed text-center'>CONTACTAME AQUÍ {""} 👇</p>
           
               <div className="w-full p-3 mb-2 flex justify-center text-gray-400">
         

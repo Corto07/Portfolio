@@ -96,7 +96,7 @@ const NavBar = ({ activeLink }) => {
       </div>
 
         {/* Sidebar */}
-        <div className={`fixed top-0 left-0 text-white w-80 h-full transition-transform transform ${sidebarOpen ? 'translate-x-0 ' : '-translate-x-full'} ease-in-out duration-300`}
+        <div className={`fixed top-0 left-0 text-white w-96 h-full transition-transform transform ${sidebarOpen ? 'translate-x-0 ' : '-translate-x-full'} ease-in-out duration-300`}
             style={   
               { 
                 background:
@@ -105,18 +105,18 @@ const NavBar = ({ activeLink }) => {
               }   
             id="sidebar">
             {/* Sidebar Content */}
-            <div className="mt-3">
-                <h1 className="text-2xl text-sky-600 white-text-shadow ml-3 font-semibold">Menu</h1>
+            <div className="mt-6">
+                <h1 className="text-2xl text-sky-600 ml-5 font-semibold">Menú</h1>
                 <ul className="mt-6">
-                    <li className="mb-3 ml-3"><a href="#home" className="block hover:text-sky-600">Home</a></li>
-                    <li className="mb-3 ml-3"><a href="#about" className="block hover:text-sky-600">Mi perfil</a></li>
-                    <li className="mb-3 ml-3"><a href="#project" className="block hover:text-sky-600">Proyectos</a></li>
-                    <li className="mb-3 ml-3"><a href="#tools" className="block hover:text-sky-600">Certificados</a></li>
-                    <li className="mb-3 ml-3"><a href="#contact" className="block hover:text-sky-600">Contacto</a></li>
+                    <li className="mb-3 ml-5"><a href="#home" className="block hover:text-sky-600">Home</a></li>
+                    <li className="mb-3 ml-5"><a href="#about" className="block hover:text-sky-600">Mi perfil</a></li>
+                    <li className="mb-3 ml-5"><a href="#project" className="block hover:text-sky-600">Proyectos</a></li>
+                    <li className="mb-3 ml-5"><a href="#tools" className="block hover:text-sky-600">Certificados</a></li>
+                    <li className="mb-3 ml-5"><a href="#contact" className="block hover:text-sky-600">Contacto</a></li>
+                    <li className="mb-3 ml-5"><a href="#close" onClick={() => setSidebarOpen(false)} className="block hover:text-sky-600">Cerrar Menú</a></li>
                 </ul>
             </div>
         </div>
-      {/* </div> */}
     </div>
   );
 };
