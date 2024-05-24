@@ -84,7 +84,7 @@ const Contact = () => {
         <div className='z-10 text-white rounded-3xl bg-opacity-40 bg-black shadow-lg shadow-gray-800
           xs:w-[90%] xsm:w-[90%] xsl:w-[90%] sm:w-[90%] md:w-[90%] lg:w-[80%] xl:w-[100%] 
           h-[90%] 
-          xs:ml-[5%] xsm:ml-[5%] xsl:ml-[5%] sm:ml-[5%] md:ml-[5%] lg:ml-[10%] xl:ml-[12%]
+          xs:ml-[5%] xsm:ml-[5%] xsl:ml-[5%] sm:ml-[5%] md:ml-[8%] lg:ml-[16%] xl:ml-[12%]
           mt-[22%]
           mb-[5%] '>
             <h1 className='pt-[4%] ml-[8%] text-3xl font-kalam font-semibold'>Ponete en Contacto...</h1>
@@ -149,8 +149,8 @@ const Contact = () => {
           <div className='z-10 text-white rounded-3xl bg-opacity-40 bg-black shadow-lg shadow-gray-800
           xs:w-[90%] xsm:w-[90%] xsl:w-[90%] sm:w-[90%] md:w-[90%] lg:w-[80%] xl:w-[82%] 
           h-[90%] 
-          xs:ml-[5%] xsm:ml-[5%] xsl:ml-[5%] sm:ml-[5%] md:ml-[5%] lg:ml-[11%] xl:ml-[11%]
-          mt-[13%]
+          xs:ml-[5%] xsm:ml-[5%] xsl:ml-[5%] sm:ml-[5%] md:ml-[4%] lg:ml-[5%] xl:ml-[11%]
+          md:mt-[22%] lg:mt-[22%] xl:mt-[13%]
           mb-[5%] '>  
         <div className="w-[90%] mx-auto flex"> 
           <div className="w-[50%]">

@@ -83,25 +83,36 @@ const NavBar = ({ activeLink }) => {
       {/* Burguer Menu */}
       <div className='xs:w-[20%] xsm:w-[20%] xsl:w-[20%] sm:w-[20%] md:w-[20%] lg:hidden '>
         <button className="text-gray-500 hover:text-gray-600 xs:ml-4 xsm:ml-6 xsl:ml-8 sm:ml-24" id="open-sidebar" onClick={() => setSidebarOpen(!sidebarOpen)}>
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
-          </svg>
+        {sidebarOpen ? (
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          ) : (
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          )}
         </button>
       </div>
 
-      {/* <div className={`h-screen flex overflow-hidden bg-gray-200 lg:hidden ${sidebarOpen ? 'block' : 'hidden'}`}> */}
         {/* Sidebar */}
-        <div className={`absolute flex overflow-hidden bg-gray-800 text-white w-56 min-h-screen transition-transform transform ${sidebarOpen ? 'translate-x-0 block' : '-translate-x-full hidden'} ease-in-out duration-300`}
+        <div className={`fixed top-0 left-0 text-white w-80 h-full transition-transform transform ${sidebarOpen ? 'translate-x-0 ' : '-translate-x-full'} ease-in-out duration-300`}
+            style={   
+              { 
+                background:
+                "linear-gradient(to right, black, black, transparent)",
+                }
+              }   
             id="sidebar">
             {/* Sidebar Content */}
-            <div className="p-4">
-                <h1 className="text-2xl font-semibold">Sidebar</h1>
-                <ul className="mt-4">
-                    <li className="mb-2"><a href="#" className="block hover:text-indigo-400">Home</a></li>
-                    <li className="mb-2"><a href="#" className="block hover:text-indigo-400">Mi perfil</a></li>
-                    <li className="mb-2"><a href="#" className="block hover:text-indigo-400">Proyectos</a></li>
-                    <li className="mb-2"><a href="#" className="block hover:text-indigo-400">Certificados</a></li>
-                    <li className="mb-2"><a href="#" className="block hover:text-indigo-400">Contact</a></li>
+            <div className="mt-3">
+                <h1 className="text-2xl text-sky-600 white-text-shadow ml-3 font-semibold">Menu</h1>
+                <ul className="mt-6">
+                    <li className="mb-3 ml-3"><a href="#home" className="block hover:text-sky-600">Home</a></li>
+                    <li className="mb-3 ml-3"><a href="#about" className="block hover:text-sky-600">Mi perfil</a></li>
+                    <li className="mb-3 ml-3"><a href="#project" className="block hover:text-sky-600">Proyectos</a></li>
+                    <li className="mb-3 ml-3"><a href="#tools" className="block hover:text-sky-600">Certificados</a></li>
+                    <li className="mb-3 ml-3"><a href="#contact" className="block hover:text-sky-600">Contacto</a></li>
                 </ul>
             </div>
         </div>
