@@ -8,32 +8,28 @@ const Tools = () => {
             
         {/* Tarjeta 1 */}
         <Fade cascade direction="top" duration={1500}>
-          <div className="w-full md:w-[100%] lg:w-[100%] h-[400px] pt-12 px-4 animate__animated animate__fadeInUp" style={{ animationName: "slideIn", animationDuration: "1.5s", animationFillMode: "both" }}>
+          <div className="w-full md:w-[100%] lg:w-[100%] h-[450px] pt-12 px-4">
             <div className="h-full bg-gray-500 bg-opacity-30 rounded-lg p-6">
               <h1 className="text-lg text-center pb-4 font-kalam">Certificado Henry</h1>
-            <div className='items-center w-[300px] h-[250px] rounded-lg overflow-hidden'>  
-              <img className="items-center w-[300px] h-[250px] rounded-lg transition duration-700 hover:scale-110 cursor-pointer"
-              src=""
+              <img className="items-center w-[400px] h-[300px] rounded-lg"
+              src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1716554778/Porfolio/Diploma_desarollador_fullStack_vc1bbn.jpg"
               alt="Imagen Certificado Henry" />
-            </div>
             </div>
           </div>
         </Fade>
 
         {/* Tarjeta 2 */}
         <Fade cascade direction="top" duration={1500} delay={200}>
-          <div className="w-full md:w-[100%] lg:w-[100%] h-[400px] pt-12 px-4 animate__animated animate__fadeInUp" style={{ animationName: "slideIn", animationDuration: "1.5s", animationFillMode: "both", animationDelay: "0.2s" }}>
+          <div className="w-full md:w-[100%] lg:w-[100%] h-[450px] pt-12 px-4">
             <div className="h-full bg-gray-500 bg-opacity-30 rounded-lg p-6">
               <h1 className="text-lg text-center pb-4 font-kalam">Certificado No Country</h1>
-              <div className='items-center w-[300px] h-[250px] rounded-lg overflow-hidden'>
-              <img className="items-center w-[300px] h-[250px] rounded-lg transition duration-700 hover:scale-110 cursor-pointer"
+              <img className="items-center w-[400px] h-[300px] rounded-lg"
               src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1715106097/Porfolio/Claudio_Carruz_dofxyi.jpg"
               alt="Certificado No Country" />
             </div>
-            </div>
           </div>
-      </Fade>
-    </div>  
+        </Fade>
+      </div>  
     </div>
   )
 };
