@@ -5,15 +5,19 @@ const Tools = () => {
   return (
     <div id="tools" className="relative z-10 w-full md:w-[100%] h-auto md:h-auto flex justify-center bg-opacity-70 bg-black">
       
-      <div className='absolute w-full h-[9.2%] mt-[8%] '
+      <div className='absolute w-full 
+      xs:h-[6.5%] xsm:h-[6.5%] xsl:h-[5.8%] sm:h-[12.5%] md:h-[12.5%] lg:h-[11%] xl:h-[9%]
+      xs:mt-[8%] xsm:mt-[8%] xsl:mt-[8%] sm:mt-[8%] md:mt-[8%] lg:mt-[8%] xl:mt-[8%]'
         style={   
           { 
             background:
-            "linear-gradient(to right, transparent, transparent, black, transparent, transparent)",
+            "linear-gradient(to right, transparent, transparent, #3E9278, transparent, transparent)",
             }
           }   >
           <Fade cascade direction="left">
-            <h1 className='text-center text-white sky-text-shadow text-4xl font-sans font-bold italic mt-2 uppercase'>Certificados</h1>
+            <h1 className='text-center text-white sky-text-shadow font-sans font-bold italic mt-2 uppercase
+            xs:text-2xl xsm:text-2xl xsl:text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-4xl'
+            >Certificados</h1>
           </Fade>  
         </div>
       
