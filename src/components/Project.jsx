@@ -52,7 +52,7 @@ const Project = () => {
         </Fade>
 
         {/* Tarjeta 2 */}
-        <Fade cascade direction="top" duration={1500} delay={200}>
+        <Fade cascade direction="top" duration={1500} delay={400}>
           <div className="pt-12 px-4 animate__animated animate__fadeInUp
           xs:w-[100%] xsm:w-[100%] xsl:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] xl:w-[100%]
           xs:h-[350px] xsm:h-[350px] xsl:h-[400px] sm:h-[450px] md:h-[400px] lg:h-[400px] xl:h-[400px]"
@@ -76,7 +76,7 @@ const Project = () => {
         </Fade>
 
         {/* Tarjeta 3 */}
-        <Fade cascade direction="top" duration={1500} delay={400}>
+        <Fade cascade direction="top" duration={1500} delay={700}>
           <div className="pt-12 px-4 animate__animated animate__fadeInUp
           xs:w-[100%] xsm:w-[100%] xsl:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] xl:w-[100%]
           xs:h-[350px] xsm:h-[350px] xsl:h-[400px] sm:h-[450px] md:h-[400px] lg:h-[400px] xl:h-[400px]"
@@ -100,7 +100,7 @@ const Project = () => {
         </Fade>
 
         {/* Tarjeta 4 */}
-        <Fade cascade direction="top" duration={1500} delay={600}>
+        <Fade cascade direction="top" duration={1500} delay={1000}>
           <div className="pt-12 px-4 animate__animated animate__fadeInUp
           xs:w-[100%] xsm:w-[100%] xsl:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] xl:w-[100%]
           xs:h-[350px] xsm:h-[350px] xsl:h-[400px] sm:h-[450px] md:h-[400px] lg:h-[400px] xl:h-[400px]"
@@ -124,7 +124,7 @@ const Project = () => {
         </Fade>
 
         {/* Tarjeta 5 */}
-        <Fade cascade direction="top" duration={1500} delay={800}>
+        <Fade cascade direction="top" duration={1500} delay={1300}>
           <div className="pt-12 px-4 animate__animated animate__fadeInUp
           xs:w-[100%] xsm:w-[100%] xsl:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] xl:w-[100%]
           xs:h-[350px] xsm:h-[350px] xsl:h-[400px] sm:h-[450px] md:h-[400px] lg:h-[400px] xl:h-[400px]"

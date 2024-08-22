@@ -26,7 +26,7 @@ const Header = () => {
       <div className='relative w-[90%] h-[560px]'>
         <p className='absolute sky-text-shadow font-sans font-semibold text-white 
         xs:text-[250%] xsm:text-[250%] xsl:text-[250%] sm:text-[250%] md:text-[250%] lg:text-[250%] xl:text-[250%]
-        xs:top-[22%] xsm:top-[22%] xsl:top-[22%] sm:top-[25%] md:top-[25%] lg:top-[25%] xl:top-[25%]
+        xs:top-[28%] xsm:top-[22%] xsl:top-[22%] sm:top-[25%] md:top-[25%] lg:top-[25%] xl:top-[25%]
         xs:left-[8%] xsm:left-[8%] xsl:left-[8%] sm:left-[8%] md:left-[8%] lg:left-[8%] xl:left-[8%]'
         >Hola...!</p>
         
