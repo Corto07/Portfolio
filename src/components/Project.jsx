@@ -130,16 +130,19 @@ const Project = () => {
           xs:h-[350px] xsm:h-[350px] xsl:h-[400px] sm:h-[450px] md:h-[400px] lg:h-[400px] xl:h-[400px]"
           style={{ animationName: "slideIn", animationDuration: "1.5s", animationFillMode: "both", animationDelay: "0.4s" }}>
           <div className="h-full bg-sky-500 bg-opacity-30 shadow-lg shadow-gray-800 rounded-lg p-6">
-              <h1 className="text-lg text-center pb-4 font-kalam">Proyecto</h1>
+              <h1 className="text-lg text-center pb-4 font-kalam">MotoRock</h1>
+              
+              <a href="https://motorockbahia.vercel.app" target="_blank" rel="noopener noreferrer">
               <div className='items-center rounded-lg overflow-hidden
               xs:w-[300px] xsm:w-[300px] xsl:w-[300px] sm:w-[400px] md:w-[260px] lg:w-[350px] xl:w-[320px]
               xs:h-[200px] xsm:h-[200px] xsl:h-[250px] sm:h-[300px] md:h-[220px] lg:h-[250px] xl:h-[250px]'>
               <img className="items-center rounded-lg transition duration-700 hover:scale-110 cursor-pointer
               xs:w-[300px] xsm:w-[300px] xsl:w-[300px] sm:w-[400px] md:w-[260px] lg:w-[350px] xl:w-[320px]
               xs:h-[200px] xsm:h-[200px] xsl:h-[250px] sm:h-[300px] md:h-[220px] lg:h-[250px] xl:h-[250px]"
-              src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1715807329/Porfolio/SitioEnConstruccion_tm8rtt.jpg"
+              src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1724352368/Porfolio/Captura_de_pantalla_517_ium4a4.png"
               alt="Imagen Proyecto" />
             </div>
+            </a>
             </div>
           </div>
         </Fade>
